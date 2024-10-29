@@ -1,6 +1,8 @@
 # IoT System for Public Bicycle Energy Recovery
 
 This project, **IoT System for Public Bicycle Energy Recovery**, is designed to track and analyze data from a public bicycle energy recovery system. By collecting and uploading data to an AWS server database, the system allows for real-time monitoring through a webpage, with detailed analytics available in Power BI.
+### System Architecture
+![IoT System Structure](images/Structure.png)
 
 ## Project Overview
 
@@ -9,6 +11,12 @@ This IoT system uses an MCU programmed in C to control energy recovery from bicy
 1. **Bike End**: Generates energy while riding and stores it in a lithium-ion battery.
 2. **Charging Station End**: Measures the bike’s battery voltage upon docking and discharges energy to a lead-acid battery if a set threshold is met.
 3. **Backend Management Interface**: Allows administrators to monitor bike battery status, discharge time, and total energy at the charging station, facilitating insights into ride distance, energy production, and usage trends.
+### Real-Time Monitoring Webpage (Charging Station)
+![Charging Station Monitor](images/ChargingStationMonitor.png)
+
+### Power BI Statistical Dashboard
+![Power BI Report](images/powerbi.png)
+
 
 ## System Architecture
 
