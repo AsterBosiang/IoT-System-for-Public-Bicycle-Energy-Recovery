@@ -24,11 +24,15 @@ This IoT system uses an MCU programmed in C to control energy recovery from bicy
 - Generates electricity via a hub generator during rides.
 - Stores energy in a lithium-ion battery after passing through a rectifier, comparator circuits, and capacitors.
 - Logs ride data (speed, voltage, time) on an SD card and uploads it to the cloud when docked.
+- ### Appearance
+![Appearance](images/Appearance.jpg)
 
 ### Charging Station End
 - Monitors bike battery discharge status, including voltage, current, and time, upon docking.
 - Controls energy flow to a lead-acid battery based on set voltage thresholds.
 - Receives control signals from the backend interface for interrupting energy recovery as needed.
+- ### Charging Station Internal Structure
+![ChargingStationAppearance](images/ChargingStationAppearance.jpg)
 
 ### Backend Management
 - Displays real-time data on energy recovery, discharge status, and ride data.
