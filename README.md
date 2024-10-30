@@ -46,6 +46,7 @@ This IoT system uses an MCU programmed in C to control energy recovery from bicy
 - **fetch_data.php**: PHP script that fetches database data for real-time monitoring on the webpage.
 - **ChargingStationUpload.php**: API endpoint that receives data from the charging station MCU.
 - **BikeUpload.php**: API endpoint that receives data from the bike MCU.
+- **ChargingStationLockAndDisplay.c**: C program for the charging station locker and lcd display, illustrate status information.
 
 ## Technologies Used
 
