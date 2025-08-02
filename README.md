@@ -51,7 +51,7 @@ This IoT system uses an MCU programmed in C to control energy recovery from bicy
 ## Technologies Used
 
 - **Languages**: C (MCU programming), PHP (API development), HTML (frontend)
-- **Protocols**: CAN, SPI, I2C, Wi-Fi
+- **Protocols**: SPI, I2C, Wi-Fi
 - **Platforms**: AWS (cloud database)
 - **Tools**: Power BI (data analytics)
 
