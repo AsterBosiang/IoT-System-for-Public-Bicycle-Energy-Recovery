@@ -40,17 +40,17 @@ This IoT system uses an MCU programmed in C to control energy recovery from bicy
 
 ## Repository Structure
 
-- **Bike.c**: C program for the bike MCU, responsible for storing ride data on the SD card and uploading it to the cloud upon docking.
-- **ChargingStation.c**: C program for the charging station MCU, monitors battery discharge status and logs relevant metrics.
+- **Bike**: Program for the bike MCU, responsible for storing ride data on the SD card and uploading it to the cloud upon docking.
+- **ChargingStation**: Program for the charging station MCU, monitors battery discharge status and logs relevant metrics.
 - **ChargingStationMonitor.html**: Real-time monitoring webpage for the charging station end.
 - **fetch_data.php**: PHP script that fetches database data for real-time monitoring on the webpage.
 - **ChargingStationUpload.php**: API endpoint that receives data from the charging station MCU.
 - **BikeUpload.php**: API endpoint that receives data from the bike MCU.
-- **ChargingStationLockAndDisplay.c**: C program for the charging station locker and lcd display, illustrate status information.
+- **ChargingStationLockAndDisplay**: Program for the charging station locker and lcd display, illustrate status information.
 
 ## Technologies Used
 
-- **Languages**: C (MCU programming), PHP (API development), HTML (frontend)
+- **Languages**: C++ (MCU programming), PHP (API development), HTML (frontend)
 - **Protocols**: SPI, I2C, Wi-Fi
 - **Platforms**: AWS (cloud database)
 - **Tools**: Power BI (data analytics)
