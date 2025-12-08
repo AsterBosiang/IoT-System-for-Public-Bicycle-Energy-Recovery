@@ -58,7 +58,7 @@ This IoT system uses an MCU programmed in C to control energy recovery from bicy
 ## Installation and Setup
 
 1. **Microcontroller Setup**:
-   - Flash the `Bike.c` program to the bike MCU and the `ChargingStation.c` program to the charging station MCU.
+   - Flash the `Bike.cpp` program to the bike MCU and the `ChargingStation.cpp` program to the charging station MCU.
    - Set up the necessary sensors and components on the bike and station for voltage and current measurement.
 
 2. **Web and Database Setup**:
