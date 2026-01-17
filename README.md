@@ -8,8 +8,8 @@ This project, **IoT System for Public Bicycle Energy Recovery**, is designed to 
 
 This IoT system uses an MCU programmed in C to control energy recovery from bicycles equipped with a hub generator. The system comprises three primary components:
 
-1. **Bike End**: Generates energy while riding and stores it in a lithium-ion battery.
-2. **Charging Station End**: Measures the bike’s battery voltage upon docking and discharges energy to a lead-acid battery if a set threshold is met.
+1. **Bike Node**: Generates energy while riding and stores it in a lithium-ion battery.
+2. **Charging Station Node**: Measures the bike’s battery voltage upon docking and discharges energy to a lead-acid battery if a set threshold is met.
 3. **Backend Management Interface**: Allows administrators to monitor bike battery status, discharge time, and total energy at the charging station, facilitating insights into ride distance, energy production, and usage trends.
 ### Real-Time Monitoring Webpage (Charging Station)
 ![Charging Station Monitor](images/ChargingStationMonitor.png)
@@ -20,14 +20,19 @@ This IoT system uses an MCU programmed in C to control energy recovery from bicy
 
 ## System Architecture
 
-### Bike End
+### Bike Node
 - Generates electricity via a hub generator during rides.
 - Stores energy in a lithium-ion battery after passing through a rectifier, comparator circuits, and capacitors.
 - Logs ride data (speed, voltage, time) on an SD card and uploads it to the cloud when docked.
 - ### Appearance
 ![Appearance](images/Appearance.jpg)
+- ### Energy Harvesting Circuit Architecture
+![Circuit](images/Circuit.jpg)
+- ### Performance Analysis
+- The graph demonstrates the circuit's dual-threshold hysteresis mechanism, which triggers a stable 23.5V charging output only when the specific speed threshold is met, effectively preventing oscillation.
+![Performance](images/Performance.jpg)
 
-### Charging Station End
+### Charging Station Node
 - Monitors bike battery discharge status, including voltage, current, and time, upon docking.
 - Controls energy flow to a lead-acid battery based on set voltage thresholds.
 - Receives control signals from the backend interface for interrupting energy recovery as needed.
