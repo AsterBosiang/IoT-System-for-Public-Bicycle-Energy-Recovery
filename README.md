@@ -25,7 +25,7 @@ This IoT system uses an MCU programmed in C to control energy recovery from bicy
 - Stores energy in a lithium-ion battery after passing through a rectifier, comparator circuits, and capacitors.
 - Logs ride data (speed, voltage, time) on an SD card and uploads it to the cloud when docked.
 - ### Appearance
-<img src="images/Appearance.png" alt="Appearance" width="700">
+<img src="images/Appearance.jpg" alt="Appearance" width="700">
 
 - ### Energy Harvesting Circuit Architecture
 <img src="images/Circuit.png" alt="Circuit" width="700">
@@ -39,7 +39,7 @@ This IoT system uses an MCU programmed in C to control energy recovery from bicy
 - Controls energy flow to a lead-acid battery based on set voltage thresholds.
 - Receives control signals from the backend interface for interrupting energy recovery as needed.
 - ### Charging Station Internal Structure
-<img src="images/ChargingStationAppearance.jpg" alt="ChargingStationAppearance" width="700">
+<img src="images/ChargingStationAppearance.jpg" alt="ChargingStationAppearance" width="600">
 
 ### Backend Management
 - Displays real-time data on energy recovery, discharge status, and ride data.
