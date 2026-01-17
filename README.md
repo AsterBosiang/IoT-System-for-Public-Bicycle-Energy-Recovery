@@ -25,19 +25,21 @@ This IoT system uses an MCU programmed in C to control energy recovery from bicy
 - Stores energy in a lithium-ion battery after passing through a rectifier, comparator circuits, and capacitors.
 - Logs ride data (speed, voltage, time) on an SD card and uploads it to the cloud when docked.
 - ### Appearance
-![Appearance](images/Appearance.jpg)
+<img src="images/Appearance.png" alt="Appearance" width="700">
+
 - ### Energy Harvesting Circuit Architecture
-<img src="images/Circuit.png" alt="Circuit" width="600">
+<img src="images/Circuit.png" alt="Circuit" width="700">
+
 - ### Performance Analysis
 - The graph demonstrates the circuit's dual-threshold hysteresis mechanism, which triggers a stable 23.5V charging output only when the specific speed threshold is met, effectively preventing oscillation.
-![Performance](images/Performance.png)
+<img src="images/Performance.png" alt="Performance" width="700">
 
 ### Charging Station Node
 - Monitors bike battery discharge status, including voltage, current, and time, upon docking.
 - Controls energy flow to a lead-acid battery based on set voltage thresholds.
 - Receives control signals from the backend interface for interrupting energy recovery as needed.
 - ### Charging Station Internal Structure
-![ChargingStationAppearance](images/ChargingStationAppearance.jpg)
+<img src="images/ChargingStationAppearance.jpg" alt="ChargingStationAppearance" width="700">
 
 ### Backend Management
 - Displays real-time data on energy recovery, discharge status, and ride data.
