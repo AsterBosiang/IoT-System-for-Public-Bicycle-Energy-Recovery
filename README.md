@@ -27,10 +27,10 @@ This IoT system uses an MCU programmed in C to control energy recovery from bicy
 - ### Appearance
 ![Appearance](images/Appearance.jpg)
 - ### Energy Harvesting Circuit Architecture
-![Circuit](images/Circuit.jpg)
+![Circuit](images/Circuit.png)
 - ### Performance Analysis
 - The graph demonstrates the circuit's dual-threshold hysteresis mechanism, which triggers a stable 23.5V charging output only when the specific speed threshold is met, effectively preventing oscillation.
-![Performance](images/Performance.jpg)
+![Performance](images/Performance.png)
 
 ### Charging Station Node
 - Monitors bike battery discharge status, including voltage, current, and time, upon docking.
